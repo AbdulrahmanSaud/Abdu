@@ -10,7 +10,7 @@ st.set_page_config(page_title="my website ",page_icon="🔝",layout="wide")
 
 
 
-img_Rl = Image.open("images\\RL.png")
+img_Rl = Image.open("/mount/src/abdu/website1/images\\RL.png")
 
 
 
@@ -33,7 +33,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style",unsafe_allow_html=True)
 
-local_css("style/style.css")
+local_css("/mount/src/abdu/website1/style/style.css")
 
 
 
